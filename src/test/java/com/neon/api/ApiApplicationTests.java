@@ -11,6 +11,12 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+// TODO: room creation
+// TODO: concurrent room creation
+// TODO: room removing
+// TODO: security: error while accessing room with wrong PIN
+// TODO: Test containers for E2E tests ?
+
 @SpringBootTest
 @AutoConfigureMockMvc
 class ApiApplicationTests {
