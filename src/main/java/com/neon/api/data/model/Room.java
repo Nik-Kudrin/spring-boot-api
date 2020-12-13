@@ -1,7 +1,10 @@
-package model;
+package com.neon.api.data.model;
+
+import org.springframework.data.annotation.Id;
 
 public class Room {
 
+    @Id
     private final long id;
     private final String description;
 
