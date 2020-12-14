@@ -5,12 +5,12 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.MongoDatabaseFactory;
 import org.springframework.data.mongodb.core.SimpleMongoClientDatabaseFactory;
 
-@Configuration
-@ComponentScan
+//@Configuration
+//@ComponentScan
 class ApplicationConfig {
 
-    public @Bean
-    MongoDatabaseFactory mongoDatabaseFactory() {
-        return new SimpleMongoClientDatabaseFactory(MongoClients.create(), "scrum");
-    }
+//    public @Bean
+//    MongoDatabaseFactory mongoDatabaseFactory() {
+//        return new SimpleMongoClientDatabaseFactory(MongoClients.create(), "scrum");
+//    }
 }
